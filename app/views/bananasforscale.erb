@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Useless Units Converter</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+
+    </head>
+    <body>
+        <h1>Useless Units Converter</h1>
+        <p class="subtitle">How many corgis do you weigh? How many Joe Bidens tall is the Eiffel Tower? Calculate the answers to these pressing questions with Useless Units Converter™!</p>
+        <form method="post" action="/uselesscalculating">
+            <label for="unitVal">Convert </label>
+            <input class="inputbox" type="number" name="unitVal">
+           
+            <input type="radio" name="unitType" value="inches"> inches  
+            <input type="radio" name="unitType" value="feet"> feet
+            <input type="radio" name="unitType" value="miles"> miles  
+            <input type="radio" name="unitType" value="grams"> grams  
+            <input type="radio" name="unitType" value="pounds"> pounds
+            <br>
+
+
+            <label for="newUnit">into...</label><br>
+            <input type="radio" name="newUnit" value="bananas"> bananas<br>
+            <input type="radio" name="newUnit" value="corgis"> corgis<br>
+            <input type="radio" name="newUnit" value="joebidens"> Joe Bidens<br><br>
+            
+            <input class="button" type="submit" value="Calculate!">
+        </form>
+        <a href="/">Back</a>
+    </body>
+    
+</html>
