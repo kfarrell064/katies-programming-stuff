@@ -10,7 +10,7 @@
         <p class="subtitle">How many corgis do you weigh? How many Joe Bidens tall is the Eiffel Tower? Calculate the answers to these pressing questions with Useless Units Converter™!</p>
         <form method="post" action="/uselesscalculating">
             <label for="unitVal">Convert </label>
-            <input class="inputbox" type="number" name="unitVal">
+            <input id="convertnumber" class="inputbox" type="number" name="unitVal">
            
             <input type="radio" name="unitType" value="inches"> inches  
             <input type="radio" name="unitType" value="feet"> feet
@@ -20,10 +20,10 @@
             <br>
 
 
-            <label for="newUnit">into...</label><br>
-            <input type="radio" name="newUnit" value="bananas"> bananas<br>
-            <input type="radio" name="newUnit" value="corgis"> corgis<br>
-            <input type="radio" name="newUnit" value="joebidens"> Joe Bidens<br><br>
+            <label for="newUnit"><i>into...</i></label><br>
+            <input class="option" type="radio" name="newUnit" value="bananas"> bananas<br>
+            <input class="option" type="radio" name="newUnit" value="corgis"> corgis<br>
+            <input class="option" type="radio" name="newUnit" value="joebidens"> Joe Bidens<br><br>
             
             <input class="button" type="submit" value="Calculate!">
         </form>
