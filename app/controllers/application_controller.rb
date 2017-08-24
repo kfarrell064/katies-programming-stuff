@@ -29,6 +29,10 @@ class ApplicationController < Sinatra::Base
   get '/dabjarcalculator.erb' do
     erb :dabjarcalculator
   end
+  
+  get '/cdd.erb' do
+    erb :cdd
+  end
  
   post '/uselesscalculating' do
     @unitval = params["unitVal"]

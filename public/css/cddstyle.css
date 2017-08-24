@@ -1,0 +1,68 @@
+body {
+    font-family: 'Raleway';
+    font-size: 18px;
+    margin-left: 50px;
+    margin-right: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(245, 245, 245);
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    font-size: 70px;
+    margin-bottom: 70px;
+}
+
+h2 {
+   font-family: 'Playfair Display';
+   font-size: 50px; 
+}
+
+h3 {
+    font-family: 'Playfair Display';
+    font-size: 25px;
+}
+
+#warningimg{
+    float: left;
+    margin-right:25px;
+    margin-top:25px;
+    margin-bottom:25px;
+    height: 500px;
+    width: auto;
+    border-radius: 7px;
+}
+
+#dabbing {
+    height: 600px;
+    width: 55%;
+    margin:25px;
+    margin-right:40px;
+    margin-left:70px;
+    float: right;
+    border-radius: 7px;
+
+}
+
+#whatis {
+    margin-bottom: 100px;
+    margin-right: 50px;
+    font-size: 25px;
+
+}
+
+#quote {
+    font-size: 25px;
+}
+
+#intro {
+    background-color: rgb(0, 0, 0);
+    padding-left: 40px;
+    padding-top: 15px;
+    margin-bottom: 50px;
+    color: rgb(245, 245, 245);
+    border:solid;
+    
+
+}
