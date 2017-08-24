@@ -34,6 +34,10 @@ class ApplicationController < Sinatra::Base
     erb :cdd
   end
  
+ get '/javaprojects.erb' do
+    erb :javaprojects
+  end
+  
   post '/uselesscalculating' do
     @unitval = params["unitVal"]
     @unittype = params["unitType"]
