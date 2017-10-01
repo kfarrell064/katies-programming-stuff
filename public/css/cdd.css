@@ -23,8 +23,16 @@ h3 {
     font-family: 'Playfair Display';
     font-size: 25px;
 }
+#mdabbing {
+    width: 35%;
+    margin:25px;
+    margin-right:40px;
+    margin-left:70px;
+    float: right;
+    border-radius: 7px;
+}
 
-#warningimg{
+#warningimg {
     float: left;
     margin-right:25px;
     margin-top:25px;
@@ -56,13 +64,18 @@ h3 {
     font-size: 25px;
 }
 
-#intro {
+.blackbox {
     background-color: rgb(0, 0, 0);
     padding-left: 40px;
     padding-top: 15px;
-    margin-bottom: 50px;
     color: rgb(245, 245, 245);
     border:solid;
-    
+}
 
+#notice {
+    text-align: center;
+}
+
+#inspiration {
+    text-align: center;
 }
